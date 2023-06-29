@@ -11,7 +11,6 @@ extraTest("Карточки изначально отображаются", asyn
   const r = await page.getByTestId("info");
   await sleep(1500);
 
-  await page.pause();
   await expect(r).toHaveCount(10);
 });
 
