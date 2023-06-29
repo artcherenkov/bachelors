@@ -15,3 +15,8 @@
 #### Пример генерации данных
 1. `cd ./bachelors-test/`
 2. `tdg generate --url http://localhost:3030`
+
+#### Запуск тестирования
+! Убедитесь, что данные сгенерированы !
+1. `cd ./bachelors-test/`
+2. `npm test`
